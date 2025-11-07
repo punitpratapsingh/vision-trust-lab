@@ -8,6 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card } from "@/components/ui/card";
 import { Activity, Users, FileText, TrendingUp } from "lucide-react";
 
+// Dashboard component
 const Dashboard = () => {
   const [dateRange, setDateRange] = useState({ from: "", to: "" });
   const [searchQuery, setSearchQuery] = useState("");
