@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="p-2 bg-primary/10 rounded-lg">
                 <Eye className="w-5 h-5 text-primary" />
               </div>
-              <span className="text-lg font-bold">RetinaAI</span>
+              <span className="text-lg font-bold">DiabeticRetinopathy AI</span>
             </div>
             <p className="text-muted-foreground mb-4">
               Advanced AI-powered diabetic retinopathy detection for healthcare professionals.
