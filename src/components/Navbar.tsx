@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="p-2 bg-primary/10 rounded-lg">
               <Eye className="w-6 h-6 text-primary" />
             </div>
-            <span className="text-xl font-bold">RetinaAI</span>
+            <span className="text-xl font-bold">DiabeticRetinopathy AI</span>
           </button>
           
           <div className="hidden md:flex items-center gap-8">
