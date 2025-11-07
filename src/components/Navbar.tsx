@@ -28,6 +28,9 @@ const Navbar = () => {
             <button onClick={() => navigate('/analysis')} className="text-foreground hover:text-primary transition-colors">
               Analysis
             </button>
+            <button onClick={() => navigate('/dashboard')} className="text-foreground hover:text-primary transition-colors">
+              Dashboard
+            </button>
             <a href="#features" className="text-foreground hover:text-primary transition-colors">
               Features
             </a>
@@ -59,6 +62,9 @@ const Navbar = () => {
               </button>
               <button onClick={() => { navigate('/analysis'); setIsOpen(false); }} className="text-foreground hover:text-primary transition-colors text-left">
                 Analysis
+              </button>
+              <button onClick={() => { navigate('/dashboard'); setIsOpen(false); }} className="text-foreground hover:text-primary transition-colors text-left">
+                Dashboard
               </button>
               <a href="#features" className="text-foreground hover:text-primary transition-colors">
                 Features
